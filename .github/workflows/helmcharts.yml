@@ -25,11 +25,11 @@ jobs:
       - name: Install Helm
         uses: azure/setup-helm@v4
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"       
+          GITHUB_TOKEN: "${{ secrets.YOUR_GITHUB_TOKEN }}"       
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.6.0
         with:
           charts_dir: helmchart
         env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_TOKEN: "${{ secrets.YOUR_GITHUB_TOKEN }}"
