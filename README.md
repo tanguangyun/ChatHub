@@ -3,7 +3,7 @@
     <img src="client/public/assets/logo.svg" height="256">
   </a>
   <h1 align="center">
-    <a href="https://librechat.ai">LibreChat</a>
+    <a href="https://librechat.ai">ChatHub</a>
   </h1>
 </p>
 
@@ -75,7 +75,7 @@
 
 [For a thorough review of our features, see our docs here](https://docs.librechat.ai/) 📚
 
-## 🪶 All-In-One AI Conversations with LibreChat
+## 🪶 All-In-One AI Conversations with ChatHub
 
 LibreChat brings together the future of assistant AIs with the revolutionary technology of OpenAI's ChatGPT. Celebrating the original styling, LibreChat gives you the ability to integrate multiple AI models. It also integrates and enhances original client features such as conversation and message search, prompt templates and plugins.
 
