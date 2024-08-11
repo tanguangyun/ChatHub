@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: |
-      github.repository == 'danny-avila/LibreChat' &&
+      github.repository == 'tanguangyun/ChatHub' &&
       (github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success')
     steps:
     - name: Checkout repository

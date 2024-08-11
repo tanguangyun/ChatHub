@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/danny-avila/librechat
+  repository: ghcr.io/tanguangyun/chathub
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
@@ -95,7 +95,7 @@ config:
 
   env:
     # Full list of possible values
-    # https://github.com/danny-avila/LibreChat/blob/main/.env.example
+    # https://github.com/tanguangyun/ChatHub/blob/main/.env.example
     ALLOW_EMAIL_LOGIN: "true"
     ALLOW_REGISTRATION: "true"
     ALLOW_SOCIAL_LOGIN: "false"

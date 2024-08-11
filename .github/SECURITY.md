@@ -43,7 +43,7 @@ This security policy applies to the following GitHub repository:
 
 ## Contact
 
-If you have any questions or concerns regarding the security of our project, please join our [Discord community](https://discord.librechat.ai) and report them in the appropriate channel. You can also reach out to us by [opening an issue](https://github.com/danny-avila/LibreChat/issues/new) on GitHub. Please note that the response time may vary depending on the nature and severity of the inquiry.
+If you have any questions or concerns regarding the security of our project, please join our [Discord community](https://discord.librechat.ai) and report them in the appropriate channel. You can also reach out to us by [opening an issue](https://github.com/tanguangyun/ChatHub/issues/new) on GitHub. Please note that the response time may vary depending on the nature and severity of the inquiry.
 
 ## Acknowledgments
 
