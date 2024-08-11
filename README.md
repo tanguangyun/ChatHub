@@ -112,8 +112,8 @@ Keep up with the latest updates by visiting the releases page and notes:
 ## ⭐ Star History
 
 <p align="center">
-  <a href="https://star-history.com/#tanguangyun/ChatHub&Date">
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tanguangyun/ChatHub&type=Date&theme=dark" onerror="this.src='https://api.star-history.com/svg?repos=tanguangyun/ChatHub&type=Date'" />
+  <a href="https://star-history.com/#danny-avila/LibreChat&Date">
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=danny-avila/LibreChat&type=Date&theme=dark" onerror="this.src='https://api.star-history.com/svg?repos=danny-avila/LibreChat&type=Date'" />
   </a>
 </p>
 <p align="center">
@@ -137,6 +137,6 @@ For new features, components, or extensions, please open an issue and discuss be
 
 ## 💖 This project exists in its current state thanks to all the people who contribute
 
-<a href="https://github.com/tanguangyun/ChatHub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tanguangyun/ChatHub" />
+<a href="https://github.com/danny-avila/LibreChat/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=danny-avila/LibreChat" />
 </a>
