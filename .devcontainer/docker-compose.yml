@@ -21,7 +21,7 @@ services:
       # - /var/run/docker.sock:/var/run/docker.sock 
     environment:
       - HOST=0.0.0.0
-      - MONGO_URI=mongodb://mongodb:27017/LibreChat
+      - MONGO_URI=mongodb://mongodb:27017/ChatHub
       # - CHATGPT_REVERSE_PROXY=http://host.docker.internal:8080/api/conversation # if you are hosting your own chatgpt reverse proxy with docker
       # - OPENAI_REVERSE_PROXY=http://host.docker.internal:8070/v1/chat/completions # if you are hosting your own chatgpt reverse proxy with docker
       - MEILI_HOST=http://meilisearch:7700
@@ -39,7 +39,7 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"  
 
   mongodb:
-    container_name: chat-mongodb
+    container_name: ChatHub-mongodb
     expose:
       - 27017
     # ports:
@@ -50,7 +50,7 @@ services:
       - ./data-node:/data/db
     command: mongod --noauth
   meilisearch:
-    container_name: chat-meilisearch
+    container_name: ChatHub-meilisearch
     image: getmeili/meilisearch:v1.5
     # restart: always
     expose:
