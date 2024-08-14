@@ -174,57 +174,57 @@ export default {
   com_ui_bookmarks_update_error: '更新书签时出错',
   com_ui_bookmarks_delete_error: '删除书签时出错',
   com_ui_bookmarks_add_to_conversation: '添加到当前对话',
-  com_auth_error_login: '无法登录，请确认提供的账户密码正确，并重新尝试。',
+  com_auth_error_login: '无法登录，请确认提供的帐户密码正确，并重新尝试。',
   com_auth_error_login_rl: '尝试登录次数过多，请稍后再试。',
   com_auth_error_login_ban: '根据我们的服务规则，您的帐号被暂时禁用。',
   com_auth_error_login_server: '内部服务器错误，请稍后再试。',
-  com_auth_no_account: '新用户注册',
+  com_auth_no_account: '没有帐户?',
   com_auth_sign_up: '注册',
   com_auth_sign_in: '登录',
   com_auth_google_login: '使用 Google 登录',
   com_auth_facebook_login: '使用 Facebook 登录',
   com_auth_github_login: '使用 GitHub 登录',
   com_auth_discord_login: '使用 Discord 登录',
-  com_auth_email: '电子邮箱',
-  com_auth_email_required: '邮箱为必填项',
-  com_auth_email_min_length: '邮箱地址至少6个字符',
-  com_auth_email_max_length: '邮箱地址最多120个字符',
-  com_auth_email_pattern: '请输入正确的电子邮箱格式',
-  com_auth_email_address: '电子邮箱地址',
-  com_auth_password: '密码',
+  com_auth_email: '电子邮件地址*',
+  com_auth_email_required: '电子邮件地址为必填项',
+  com_auth_email_min_length: '电子邮件地址至少6个字符',
+  com_auth_email_max_length: '电子邮件地址最多120个字符',
+  com_auth_email_pattern: '请输入正确的电子邮件格式',
+  com_auth_email_address: '电子邮件地址*',
+  com_auth_password: '密码*',
   com_auth_password_required: '密码为必填项',
   com_auth_password_min_length: '密码至少8个字符',
   com_auth_password_max_length: '密码最多128个字符',
   com_auth_password_forgot: '忘记密码?',
-  com_auth_password_confirm: '确认密码',
+  com_auth_password_confirm: '确认密码*',
   com_auth_password_not_match: '密码不一致',
   com_auth_continue: '继续',
-  com_auth_create_account: '创建账号',
-  com_auth_error_create: '注册账户过程中出现错误，请重试。',
-  com_auth_full_name: '姓名',
+  com_auth_create_account: '创建帐户',
+  com_auth_error_create: '注册帐户过程中出现错误，请重试。',
+  com_auth_full_name: '姓名*',
   com_auth_name_required: '姓名为必填项',
   com_auth_name_min_length: '姓名至少3个字符',
   com_auth_name_max_length: '姓名最多80个字符',
-  com_auth_username: '用户名（可选）',
+  com_auth_username: '用户名*（可选）',
   com_auth_username_required: '用户名为必填项',
   com_auth_username_min_length: '用户名至少3个字符',
   com_auth_username_max_length: '用户名最多20个字符',
-  com_auth_already_have_account: '已有账号',
+  com_auth_already_have_account: '已经拥有帐户?',
   com_auth_login: '登录',
   com_auth_reset_password: '重置密码',
   com_auth_click: '点击',
   com_auth_here: '这里',
   com_auth_to_reset_your_password: '重置密码。',
-  com_auth_reset_password_link_sent: '重置密码链接已发送至邮箱',
-  com_auth_reset_password_email_sent: '重置密码邮件已发送至邮箱',
-  com_auth_error_reset_password: '重置密码出现错误，未找到对应的邮箱地址，请重新输入。',
+  com_auth_reset_password_link_sent: '重置密码链接已发送至电子邮件',
+  com_auth_reset_password_email_sent: '重置密码邮件已发送至电子邮件',
+  com_auth_error_reset_password: '重置密码出现错误，未找到对应的电子邮件地址，请重新输入。',
   com_auth_reset_password_success: '密码重置成功',
   com_auth_login_with_new_password: '现在你可以使用你的新密码登录。',
   com_auth_error_invalid_reset_token: '重置密码的密钥已失效。',
   com_auth_click_here: '点击这里',
   com_auth_to_try_again: '再试一次。',
   com_auth_submit_registration: '注册提交',
-  com_auth_welcome_back: '欢迎',
+  com_auth_welcome_back: '欢迎回来',
   com_auth_back_to_login: '返回登录',
   com_endpoint_open_menu: '打开菜单',
   com_endpoint_bing_enable_sydney: '启用 Sydney',
@@ -359,14 +359,14 @@ export default {
   com_endpoint_config_key_encryption: '您的密钥将被加密并删除于：',
   com_endpoint_config_key_expiry: '过期时间',
   com_endpoint_config_click_here: '点击此处',
-  com_endpoint_config_google_service_key: 'Google服务账号密钥',
+  com_endpoint_config_google_service_key: 'Google服务帐户密钥',
   com_endpoint_config_google_cloud_platform: '（从谷歌云平台）',
   com_endpoint_config_google_api_key: 'Google API密钥',
   com_endpoint_config_google_gemini_api: '(Gemini API)',
   com_endpoint_config_google_api_info: '获取您的生成式语言API密钥(Gemini),',
-  com_endpoint_config_key_import_json_key: '导入服务账号JSON密钥',
-  com_endpoint_config_key_import_json_key_success: '成功导入服务账号JSON密钥',
-  com_endpoint_config_key_import_json_key_invalid: '无效的服务账号JSON密钥，您是否导入正确的文件？',
+  com_endpoint_config_key_import_json_key: '导入服务帐户JSON密钥',
+  com_endpoint_config_key_import_json_key_success: '成功导入服务帐户JSON密钥',
+  com_endpoint_config_key_import_json_key_invalid: '无效的服务帐户JSON密钥，您是否导入正确的文件？',
   com_endpoint_config_key_get_edge_key: '为获得Bing访问凭证（Access token），请登录：',
   com_endpoint_config_key_get_edge_key_dev_tool:
     '登录网站后，使用开发工具或扩展程序复制 _U cookie 的内容。如果失败，请按照以下步骤操作：',
@@ -378,7 +378,7 @@ export default {
   com_endpoint_config_key_google_need_to: '您需要',
   com_endpoint_config_key_google_vertex_ai: '在Google Cloud上启用Vertex AI',
   com_endpoint_config_key_google_vertex_api: 'API，然后',
-  com_endpoint_config_key_google_service_account: '创建一个服务账号',
+  com_endpoint_config_key_google_service_account: '创建一个服务帐户',
   com_endpoint_config_key_google_vertex_api_role:
     '确保单击“创建并继续”以至少授予“Vertex AI 用户”角色。最后，创建一个要在此处导入的JSON密钥。',
   com_nav_welcome_assistant: '请选择助手',
@@ -452,7 +452,7 @@ export default {
   com_nav_setting_general: '通用',
   com_nav_setting_beta: '实验特性',
   com_nav_setting_data: '数据管理',
-  com_nav_setting_account: '账户',
+  com_nav_setting_account: '帐户',
   /* The following are AI Translated */
   com_assistants_file_search: '文件搜索',
   com_assistants_file_search_info:
@@ -1250,7 +1250,7 @@ export const comparisons = {
   com_auth_error_login: {
     english:
       'Unable to login with the information provided. Please check your credentials and try again.',
-    translated: '无法登录，请确认提供的账户密码正确，并重新尝试。',
+    translated: '无法登录，请确认提供的帐户密码正确，并重新尝试。',
   },
   com_auth_error_login_rl: {
     english: 'Too many login attempts in a short amount of time. Please try again later.',
@@ -1266,7 +1266,7 @@ export const comparisons = {
   },
   com_auth_no_account: {
     english: 'Don\'t have an account?',
-    translated: '新用户注册',
+    translated: '没有帐户?',
   },
   com_auth_sign_up: {
     english: 'Sign up',
@@ -1294,31 +1294,31 @@ export const comparisons = {
   },
   com_auth_email: {
     english: 'Email',
-    translated: '电子邮箱',
+    translated: '电子邮件地址*',
   },
   com_auth_email_required: {
     english: 'Email is required',
-    translated: '邮箱为必填项',
+    translated: '电子邮件地址为必填项',
   },
   com_auth_email_min_length: {
     english: 'Email must be at least 6 characters',
-    translated: '邮箱地址至少6个字符',
+    translated: '电子邮件地址至少6个字符',
   },
   com_auth_email_max_length: {
     english: 'Email should not be longer than 120 characters',
-    translated: '邮箱地址最多120个字符',
+    translated: '电子邮件地址最多120个字符',
   },
   com_auth_email_pattern: {
     english: 'You must enter a valid email address',
-    translated: '请输入正确的电子邮箱格式',
+    translated: '请输入正确的电子邮件格式',
   },
   com_auth_email_address: {
     english: 'Email address',
-    translated: '电子邮箱地址',
+    translated: '电子邮件地址*',
   },
   com_auth_password: {
     english: 'Password',
-    translated: '密码',
+    translated: '密码*',
   },
   com_auth_password_required: {
     english: 'Password is required',
@@ -1338,7 +1338,7 @@ export const comparisons = {
   },
   com_auth_password_confirm: {
     english: 'Confirm password',
-    translated: '确认密码',
+    translated: '确认密码*',
   },
   com_auth_password_not_match: {
     english: 'Passwords do not match',
@@ -1350,15 +1350,15 @@ export const comparisons = {
   },
   com_auth_create_account: {
     english: 'Create your account',
-    translated: '创建账号',
+    translated: '创建帐户',
   },
   com_auth_error_create: {
     english: 'There was an error attempting to register your account. Please try again.',
-    translated: '注册账户过程中出现错误，请重试。',
+    translated: '注册帐户过程中出现错误，请重试。',
   },
   com_auth_full_name: {
     english: 'Full name',
-    translated: '姓名',
+    translated: '姓名*',
   },
   com_auth_name_required: {
     english: 'Name is required',
@@ -1374,7 +1374,7 @@ export const comparisons = {
   },
   com_auth_username: {
     english: 'Username (optional)',
-    translated: '用户名（可选）',
+    translated: '用户名*（可选）',
   },
   com_auth_username_required: {
     english: 'Username is required',
@@ -1390,7 +1390,7 @@ export const comparisons = {
   },
   com_auth_already_have_account: {
     english: 'Already have an account?',
-    translated: '已有账号',
+    translated: '已经拥有帐户?',
   },
   com_auth_login: {
     english: 'Login',
@@ -1414,16 +1414,16 @@ export const comparisons = {
   },
   com_auth_reset_password_link_sent: {
     english: 'Email Sent',
-    translated: '重置密码链接已发送至邮箱',
+    translated: '重置密码链接已发送至电子邮件',
   },
   com_auth_reset_password_email_sent: {
     english: 'An email has been sent to you with further instructions to reset your password.',
-    translated: '重置密码邮件已发送至邮箱',
+    translated: '重置密码邮件已发送至电子邮件',
   },
   com_auth_error_reset_password: {
     english:
       'There was a problem resetting your password. There was no user found with the email address provided. Please try again.',
-    translated: '重置密码出现错误，未找到对应的邮箱地址，请重新输入。',
+    translated: '重置密码出现错误，未找到对应的电子邮件地址，请重新输入。',
   },
   com_auth_reset_password_success: {
     english: 'Password Reset Success',
@@ -1451,7 +1451,7 @@ export const comparisons = {
   },
   com_auth_welcome_back: {
     english: 'Welcome back',
-    translated: '欢迎',
+    translated: '欢迎回来',
   },
   com_auth_back_to_login: {
     english: 'Back to Login',
@@ -1945,7 +1945,7 @@ export const comparisons = {
   },
   com_endpoint_config_google_service_key: {
     english: 'Google Service Account Key',
-    translated: 'Google服务账号密钥',
+    translated: 'Google服务帐户密钥',
   },
   com_endpoint_config_google_cloud_platform: {
     english: '(from Google Cloud Platform)',
@@ -1965,15 +1965,15 @@ export const comparisons = {
   },
   com_endpoint_config_key_import_json_key: {
     english: 'Import Service Account JSON Key.',
-    translated: '导入服务账号JSON密钥',
+    translated: '导入服务帐户JSON密钥',
   },
   com_endpoint_config_key_import_json_key_success: {
     english: 'Successfully Imported Service Account JSON Key',
-    translated: '成功导入服务账号JSON密钥',
+    translated: '成功导入服务帐户JSON密钥',
   },
   com_endpoint_config_key_import_json_key_invalid: {
     english: 'Invalid Service Account JSON Key, Did you import the correct file?',
-    translated: '无效的服务账号JSON密钥，您是否导入正确的文件？',
+    translated: '无效的服务帐户JSON密钥，您是否导入正确的文件？',
   },
   com_endpoint_config_key_get_edge_key: {
     english: 'To get your Access token for Bing, login to',
@@ -2019,7 +2019,7 @@ export const comparisons = {
   },
   com_endpoint_config_key_google_service_account: {
     english: 'Create a Service Account',
-    translated: '创建一个服务账号',
+    translated: '创建一个服务帐户',
   },
   com_endpoint_config_key_google_vertex_api_role: {
     english:
@@ -2307,7 +2307,7 @@ export const comparisons = {
   },
   com_nav_setting_account: {
     english: 'Account',
-    translated: '账户',
+    translated: '帐户',
   },
   com_assistants_file_search: {
     english: 'File Search',

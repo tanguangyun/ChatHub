@@ -577,7 +577,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_error_login**:
   - **english**: Unable to login with the information provided. Please check your credentials and try again.
-  - **translated**: 无法登录，请确认提供的账户密码正确，并重新尝试。
+  - **translated**: 无法登录，请确认提供的帐户密码正确，并重新尝试。
 
 - **com_auth_error_login_rl**:
   - **english**: Too many login attempts in a short amount of time. Please try again later.
@@ -593,7 +593,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_no_account**:
   - **english**: Don't have an account?
-  - **translated**: 新用户注册
+  - **translated**: 没有帐户?
 
 - **com_auth_sign_up**:
   - **english**: Sign up
@@ -621,31 +621,31 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_email**:
   - **english**: Email
-  - **translated**: 电子邮箱
+  - **translated**: 电子邮件地址*
 
 - **com_auth_email_required**:
   - **english**: Email is required
-  - **translated**: 邮箱为必填项
+  - **translated**: 电子邮件地址为必填项
 
 - **com_auth_email_min_length**:
   - **english**: Email must be at least 6 characters
-  - **translated**: 邮箱地址至少6个字符
+  - **translated**: 电子邮件地址至少6个字符
 
 - **com_auth_email_max_length**:
   - **english**: Email should not be longer than 120 characters
-  - **translated**: 邮箱地址最多120个字符
+  - **translated**: 电子邮件地址最多120个字符
 
 - **com_auth_email_pattern**:
   - **english**: You must enter a valid email address
-  - **translated**: 请输入正确的电子邮箱格式
+  - **translated**: 请输入正确的电子邮件格式
 
 - **com_auth_email_address**:
   - **english**: Email address
-  - **translated**: 电子邮箱地址
+  - **translated**: 电子邮件地址*
 
 - **com_auth_password**:
   - **english**: Password
-  - **translated**: 密码
+  - **translated**: 密码*
 
 - **com_auth_password_required**:
   - **english**: Password is required
@@ -665,7 +665,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_password_confirm**:
   - **english**: Confirm password
-  - **translated**: 确认密码
+  - **translated**: 确认密码*
 
 - **com_auth_password_not_match**:
   - **english**: Passwords do not match
@@ -677,15 +677,15 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_create_account**:
   - **english**: Create your account
-  - **translated**: 创建账号
+  - **translated**: 创建帐户
 
 - **com_auth_error_create**:
   - **english**: There was an error attempting to register your account. Please try again.
-  - **translated**: 注册账户过程中出现错误，请重试。
+  - **translated**: 注册帐户过程中出现错误，请重试。
 
 - **com_auth_full_name**:
   - **english**: Full name
-  - **translated**: 姓名
+  - **translated**: 姓名*
 
 - **com_auth_name_required**:
   - **english**: Name is required
@@ -701,7 +701,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_username**:
   - **english**: Username (optional)
-  - **translated**: 用户名（可选）
+  - **translated**: 用户名*（可选）
 
 - **com_auth_username_required**:
   - **english**: Username is required
@@ -717,7 +717,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_already_have_account**:
   - **english**: Already have an account?
-  - **translated**: 已有账号
+  - **translated**: 已经拥有帐户?
 
 - **com_auth_login**:
   - **english**: Login
@@ -741,15 +741,15 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_reset_password_link_sent**:
   - **english**: Email Sent
-  - **translated**: 重置密码链接已发送至邮箱
+  - **translated**: 重置密码链接已发送至电子邮件
 
 - **com_auth_reset_password_email_sent**:
   - **english**: An email has been sent to you with further instructions to reset your password.
-  - **translated**: 重置密码邮件已发送至邮箱
+  - **translated**: 重置密码邮件已发送至电子邮件
 
 - **com_auth_error_reset_password**:
   - **english**: There was a problem resetting your password. There was no user found with the email address provided. Please try again.
-  - **translated**: 重置密码出现错误，未找到对应的邮箱地址，请重新输入。
+  - **translated**: 重置密码出现错误，未找到对应的电子邮件地址，请重新输入。
 
 - **com_auth_reset_password_success**:
   - **english**: Password Reset Success
@@ -777,7 +777,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_welcome_back**:
   - **english**: Welcome back
-  - **translated**: 欢迎
+  - **translated**: 欢迎回来
 
 - **com_auth_back_to_login**:
   - **english**: Back to Login
@@ -1237,7 +1237,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_endpoint_config_google_service_key**:
   - **english**: Google Service Account Key
-  - **translated**: Google服务账号密钥
+  - **translated**: Google服务帐户密钥
 
 - **com_endpoint_config_google_cloud_platform**:
   - **english**: (from Google Cloud Platform)
@@ -1257,15 +1257,15 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_endpoint_config_key_import_json_key**:
   - **english**: Import Service Account JSON Key.
-  - **translated**: 导入服务账号JSON密钥
+  - **translated**: 导入服务帐户JSON密钥
 
 - **com_endpoint_config_key_import_json_key_success**:
   - **english**: Successfully Imported Service Account JSON Key
-  - **translated**: 成功导入服务账号JSON密钥
+  - **translated**: 成功导入服务帐户JSON密钥
 
 - **com_endpoint_config_key_import_json_key_invalid**:
   - **english**: Invalid Service Account JSON Key, Did you import the correct file?
-  - **translated**: 无效的服务账号JSON密钥，您是否导入正确的文件？
+  - **translated**: 无效的服务帐户JSON密钥，您是否导入正确的文件？
 
 - **com_endpoint_config_key_get_edge_key**:
   - **english**: To get your Access token for Bing, login to
@@ -1309,7 +1309,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_endpoint_config_key_google_service_account**:
   - **english**: Create a Service Account
-  - **translated**: 创建一个服务账号
+  - **translated**: 创建一个服务帐户
 
 - **com_endpoint_config_key_google_vertex_api_role**:
   - **english**: Make sure to click 'Create and Continue' to give at least the 'Vertex AI User' role. Lastly, create a JSON key to import here.
@@ -1561,7 +1561,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_nav_setting_account**:
   - **english**: Account
-  - **translated**: 账户
+  - **translated**: 帐户
 
 Please consider the above comparisons to enhance understanding and guide improvements in translations.
 
