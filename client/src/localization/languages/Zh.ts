@@ -176,7 +176,7 @@ export default {
   com_ui_bookmarks_add_to_conversation: '添加到当前对话',
   com_auth_error_login: '无法登录，请确认提供的帐户密码正确，并重新尝试。',
   com_auth_error_login_rl: '尝试登录次数过多，请稍后再试。',
-  com_auth_error_login_ban: '根据我们的服务规则，您的帐号被暂时禁用。',
+  com_auth_error_login_ban: '根据我们的服务规则，您的帐户被暂时禁用。',
   com_auth_error_login_server: '内部服务器错误，请稍后再试。',
   com_auth_no_account: '没有帐户?',
   com_auth_sign_up: '注册',
@@ -1258,7 +1258,7 @@ export const comparisons = {
   },
   com_auth_error_login_ban: {
     english: 'Your account has been temporarily banned due to violations of our service.',
-    translated: '根据我们的服务规则，您的帐号被暂时禁用。',
+    translated: '根据我们的服务规则，您的帐户被暂时禁用。',
   },
   com_auth_error_login_server: {
     english: 'There was an internal server error. Please wait a few moments and try again.',

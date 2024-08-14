@@ -585,7 +585,7 @@ Write a prompt that is mindful of the nuances in the language with respect to it
 
 - **com_auth_error_login_ban**:
   - **english**: Your account has been temporarily banned due to violations of our service.
-  - **translated**: 根据我们的服务规则，您的帐号被暂时禁用。
+  - **translated**: 根据我们的服务规则，您的帐户被暂时禁用。
 
 - **com_auth_error_login_server**:
   - **english**: There was an internal server error. Please wait a few moments and try again.
