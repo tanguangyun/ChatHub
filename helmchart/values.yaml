@@ -100,7 +100,7 @@ config:
     ALLOW_REGISTRATION: "true"
     ALLOW_SOCIAL_LOGIN: "false"
     ALLOW_SOCIAL_REGISTRATION: "false"
-    APP_TITLE: "Librechat"
+    APP_TITLE: "ChatHub"
     CUSTOM_FOOTER: "Provided with ❤️"
     DEBUG_CONSOLE: "true"
     DEBUG_LOGGING: "true"
