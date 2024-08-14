@@ -5,7 +5,7 @@ version: "3.4"
 
 services:
   api:
-    container_name: LibreChat
+    container_name: ChatHub
     ports:
       - "${PORT}:${PORT}"
     depends_on:
@@ -18,7 +18,7 @@ services:
       - "host.docker.internal:host-gateway"
     environment:
       - HOST=0.0.0.0
-      - MONGO_URI=mongodb://mongodb:27017/LibreChat
+      - MONGO_URI=mongodb://mongodb:27017/ChatHub
       - MEILI_HOST=http://meilisearch:7700
       - RAG_PORT=${RAG_PORT:-8000}
       - RAG_API_URL=http://rag_api:${RAG_PORT:-8000}
@@ -29,7 +29,7 @@ services:
       - ./images:/app/client/public/images
       - ./logs:/app/api/logs
   mongodb:
-    container_name: chat-mongodb
+    container_name: ChatHub-mongodb
     image: mongo
     restart: always
     user: "${UID}:${GID}"
@@ -37,7 +37,7 @@ services:
       - ./data-node:/data/db
     command: mongod --noauth
   meilisearch:
-    container_name: chat-meilisearch
+    container_name: ChatHub-meilisearch
     image: getmeili/meilisearch:v1.7.3
     restart: always
     user: "${UID}:${GID}"
@@ -47,7 +47,7 @@ services:
     volumes:
       - ./meili_data_v1.7:/meili_data
   vectordb:
-    container_name: vectordb
+    container_name: ChatHub-vectordb
     image: ankane/pgvector:latest
     environment:
       POSTGRES_DB: mydatabase
@@ -57,7 +57,7 @@ services:
     volumes:
       - pgdata2:/var/lib/postgresql/data
   rag_api:
-    container_name: rag_api
+    container_name: ChatHub-rag-api
     image: ghcr.io/tanguangyun/chathub-rag-api-dev-lite:latest
     environment:
       - DB_HOST=vectordb
