@@ -498,7 +498,7 @@ const processOpenAIImageOutput = async ({ req, buffer, file_id, filename, fileEx
  *
  * @param {Object} params - The params passed to the function.
  * @param {OpenAIClient} params.openai - The OpenAI client instance.
- * @param {RunClient} params.client - The LibreChat client instance: either refers to `openai` or `streamRunManager`.
+ * @param {RunClient} params.client - The ChatHub client instance: either refers to `openai` or `streamRunManager`.
  * @param {string} params.file_id - The ID of the file to retrieve.
  * @param {string} [params.basename] - The basename of the file (if image); e.g., 'image.jpg'. `undefined` for `file_citation` annotations.
  * @param {boolean} [params.unknownType] - Whether the file type is unknown.

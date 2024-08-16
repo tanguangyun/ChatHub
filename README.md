@@ -63,7 +63,7 @@
 - 🗣️ Chat hands-free with Speech-to-Text and Text-to-Speech magic
   - Automatically send and play Audio
   - Supports OpenAI, Azure OpenAI, and Elevenlabs
-- 📥 Import Conversations from LibreChat, ChatGPT, Chatbot UI
+- 📥 Import Conversations from ChatHub, ChatGPT, Chatbot UI
 - 📤 Export conversations as screenshots, markdown, text, json
 - 🔍 Search all messages/conversations
 - 🔌 Plugins, including web access, image generation with DALL-E-3 and more
@@ -77,9 +77,9 @@
 
 ## 🪶 All-In-One AI Conversations with ChatHub
 
-LibreChat brings together the future of assistant AIs with the revolutionary technology of OpenAI's ChatGPT. Celebrating the original styling, LibreChat gives you the ability to integrate multiple AI models. It also integrates and enhances original client features such as conversation and message search, prompt templates and plugins.
+ChatHub brings together the future of assistant AIs with the revolutionary technology of OpenAI's ChatGPT. Celebrating the original styling, ChatHub gives you the ability to integrate multiple AI models. It also integrates and enhances original client features such as conversation and message search, prompt templates and plugins.
 
-With LibreChat, you no longer need to opt for ChatGPT Plus and can instead use free or pay-per-call APIs. We welcome contributions, cloning, and forking to enhance the capabilities of this advanced chatbot platform.
+With ChatHub, you no longer need to opt for ChatGPT Plus and can instead use free or pay-per-call APIs. We welcome contributions, cloning, and forking to enhance the capabilities of this advanced chatbot platform.
 
 [![Watch the video](https://img.youtube.com/vi/bSVHEbVPNl4/maxresdefault.jpg)](https://www.youtube.com/watch?v=bSVHEbVPNl4)
 Click on the thumbnail to open the video☝️

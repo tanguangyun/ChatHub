@@ -30,7 +30,7 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no ${DO_USER}@${DO_HOST} << EOF
         sudo -i -u danny bash << EEOF
-        cd ~/LibreChat && \
+        cd ~/ChatHub && \
         git fetch origin main && \
         npm run update:deployed && \
         git checkout do-deploy && \

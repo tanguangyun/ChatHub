@@ -40,7 +40,7 @@ const shouldRebase = process.argv.includes('--rebase');
   console.orange(downCommand);
   execSync(downCommand, { stdio: 'inherit' });
 
-  console.purple('Removing all tags for LibreChat `deployed` images...');
+  console.purple('Removing all tags for ChatHub `deployed` images...');
   const repositories = ['ghcr.io/tanguangyun/chathub-dev-api', 'chathub-client'];
   repositories.forEach((repo) => {
     const tags = execSync(`sudo docker images ${repo} -q`, { encoding: 'utf8' })
@@ -53,16 +53,16 @@ const shouldRebase = process.argv.includes('--rebase');
     });
   });
 
-  console.purple('Pulling latest LibreChat images...');
+  console.purple('Pulling latest ChatHub images...');
   const pullCommand = 'sudo docker-compose -f ./deploy-compose.yml pull api';
   console.orange(pullCommand);
   execSync(pullCommand, { stdio: 'inherit' });
 
   let startCommand = 'sudo docker-compose -f ./deploy-compose.yml up -d';
-  console.green('Your LibreChat app is now up to date! Start the app with the following command:');
+  console.green('Your ChatHub app is now up to date! Start the app with the following command:');
   console.purple(startCommand);
   console.orange(
-    'Note: it\'s also recommended to clear your browser cookies and localStorage for LibreChat to assure a fully clean installation.',
+    'Note: it\'s also recommended to clear your browser cookies and localStorage for ChatHub to assure a fully clean installation.',
   );
   console.orange('Also: Don\'t worry, your data is safe :)');
 })();
