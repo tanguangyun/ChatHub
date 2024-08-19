@@ -1,6 +1,6 @@
 name: Update Test Server
 
-on:
+#on:
 #  workflow_run:
 #    workflows: ["Docker Dev Images Build"]
 #    types:
